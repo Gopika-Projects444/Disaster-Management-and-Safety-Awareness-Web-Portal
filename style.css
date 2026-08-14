@@ -1,0 +1,584 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #1f2937;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background: #a04a96;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-link {
+    margin-left: 18px;
+}
+
+.nav-link:hover {
+    color: #25065a !important;
+}
+
+
+/* ================= HOME HERO ================= */
+
+.hero {
+    min-height: 650px;
+
+    padding-top: 120px;
+
+    display: flex;
+
+    align-items: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #eac0ed,
+            #98e6d7
+        );
+
+    color: rgb(75, 30, 30);
+}
+
+.hero h1 {
+    font-size: 55px;
+
+    font-weight: 800;
+
+    line-height: 1.15;
+
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 19px;
+
+    line-height: 1.7;
+
+    margin-bottom: 30px;
+
+    max-width: 650px;
+}
+
+.hero-icon {
+    font-size: 220px;
+
+    opacity: 0.85;
+}
+
+
+/* ================= SECTION ================= */
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-title span,
+.section-heading span {
+    color: #dc2626;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+.section-title h2,
+.section-heading h2 {
+    font-size: 40px;
+
+    font-weight: 700;
+
+    margin-top: 10px;
+}
+
+.section-title p,
+.section-heading p {
+    color: #507cd9;
+}
+
+
+/* ================= DISASTER CARDS ================= */
+
+.disaster-card {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    height: 100%;
+
+    border: 1px solid #4874ce;
+
+    transition: 0.3s;
+}
+
+.disaster-card:hover {
+    transform: translateY(-10px);
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.12);
+}
+
+.disaster-card h4 {
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+.disaster-card p {
+    color: #091b41;
+
+    min-height: 65px;
+
+    line-height: 1.6;
+}
+
+
+/* ================= ICON ================= */
+
+.icon-box {
+    width: 85px;
+
+    height: 85px;
+
+    margin: 0 auto 20px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.icon-box i {
+    font-size: 42px;
+}
+
+.flood-icon {
+    background: #dbeafe;
+
+    color: #2563eb;
+}
+
+.tsunami-icon {
+    background: #cffafe;
+
+    color: #0891b2;
+}
+
+.earthquake-icon {
+    background: #fef3c7;
+
+    color: #d97706;
+}
+
+.cyclone-icon {
+    background: #ede9fe;
+
+    color: #7c3aed;
+}
+
+.landslide-icon {
+    background: #dcfce7;
+
+    color: #16a34a;
+}
+
+.wildfire-icon {
+    background: #fee2e2;
+
+    color: #dc2626;
+}
+
+
+/* ================= INDIVIDUAL PAGE HERO ================= */
+
+.detail-hero {
+    padding: 160px 0 80px;
+
+    color: white;
+
+    text-align: center;
+}
+
+.detail-hero h1 {
+    font-size: 50px;
+
+    font-weight: 800;
+
+    margin-bottom: 15px;
+}
+
+.detail-hero p {
+    font-size: 19px;
+}
+
+
+/* Different page headers */
+
+.flood-hero {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+}
+
+.tsunami-hero {
+    background: linear-gradient(135deg, #0891b2, #155e75);
+}
+
+.earthquake-hero {
+    background: linear-gradient(135deg, #d97706, #92400e);
+}
+
+.cyclone-hero {
+    background: linear-gradient(135deg, #7c3aed, #4c1d95);
+}
+
+.landslide-hero {
+    background: linear-gradient(135deg, #16a34a, #14532d);
+}
+
+.wildfire-hero {
+    background: linear-gradient(135deg, #dc2626, #7f1d1d);
+}
+
+
+/* ================= INFO BOX ================= */
+
+.info-box {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 16px;
+
+    border-left: 6px solid #94e78f;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,0.06);
+}
+
+.info-box h2 {
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+.info-box p {
+    line-height: 1.8;
+
+    color: #667085;
+
+    margin-bottom: 0;
+}
+
+
+/* ================= SAFETY CARD ================= */
+
+.safety-card {
+    background: white;
+
+    padding: 28px;
+
+    border-radius: 16px;
+
+    height: 100%;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,0.06);
+}
+
+.safety-card h3 {
+    font-size: 22px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.safety-card ul {
+    padding-left: 20px;
+
+    margin-bottom: 0;
+}
+
+.safety-card li {
+    margin-bottom: 12px;
+
+    line-height: 1.6;
+}
+
+
+/* BEFORE */
+
+.before-card {
+    border-top: 5px solid #a3906f;
+}
+
+
+/* DURING */
+
+.during-card {
+    border-top: 5px solid #dc2626;
+}
+
+
+/* AFTER */
+
+.after-card {
+    border-top: 5px solid #16a34a;
+}
+
+
+/* DO */
+
+.do-card {
+    border-left: 6px solid #16a34a;
+}
+
+.do-title {
+    color: #15803d;
+}
+
+
+/* DON'T */
+
+.dont-card {
+    border-left: 6px solid #dc2626;
+}
+
+.dont-title {
+    color: #dc2626;
+}
+
+
+/* ================= SECTION HEADING ================= */
+
+.section-heading {
+    margin-bottom: 35px;
+
+    margin-top: 30px;
+}
+
+.section-heading h2 {
+    margin-bottom: 10px;
+}
+
+
+/* ================= GUIDELINES ================= */
+
+.guideline {
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    height: 100%;
+
+    border-left: 5px solid #2563eb;
+
+    transition: 0.3s;
+}
+
+.guideline:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.08);
+}
+
+.guideline-number {
+    width: 40px;
+
+    height: 40px;
+
+    display: inline-flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #2563eb;
+
+    color: white;
+
+    border-radius: 50%;
+
+    font-weight: bold;
+
+    margin-right: 10px;
+}
+
+.guideline strong {
+    color: #1e3a8a;
+
+    font-size: 18px;
+}
+
+.guideline p {
+    color: #667085;
+
+    line-height: 1.6;
+
+    margin-top: 12px;
+
+    margin-bottom: 0;
+}
+
+
+/* ================= EMERGENCY ================= */
+
+.emergency-alert {
+    background: #fff1f2;
+
+    border: 1px solid #fecdd3;
+
+    border-left: 6px solid #dc2626;
+
+    padding: 30px;
+
+    border-radius: 15px;
+}
+
+.emergency-alert h3 {
+    color: #b91c1c;
+
+    font-weight: bold;
+}
+
+.emergency-alert p {
+    color: #667085;
+}
+
+
+/* ================= EMERGENCY SECTION ================= */
+
+.emergency-section {
+    background: #101828;
+
+    color: white;
+}
+
+.emergency-section .section-title span {
+    color: #fbbf24;
+}
+
+.emergency-section .section-title p {
+    color: #d1d5db;
+}
+
+.emergency-card {
+    background: white;
+
+    color: #222;
+
+    padding: 28px;
+
+    border-radius: 16px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.emergency-card:hover {
+    transform: translateY(-5px);
+}
+
+.emergency-card i {
+    font-size: 38px;
+
+    color: #dc2626;
+}
+
+.emergency-card h5 {
+    margin-top: 15px;
+
+    font-weight: bold;
+}
+
+.emergency-card a {
+    font-size: 25px;
+
+    font-weight: bold;
+
+    color: #dc2626;
+
+    text-decoration: none;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: #070b12;
+
+    color: white;
+
+    padding: 22px;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: 650px;
+
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .hero-icon {
+        font-size: 130px;
+
+        margin-top: 40px;
+    }
+
+    .section-title h2,
+    .section-heading h2 {
+        font-size: 32px;
+    }
+
+    .detail-hero h1 {
+        font-size: 35px;
+    }
+
+    .detail-hero {
+        padding: 140px 20px 70px;
+    }
+
+    .info-box,
+    .safety-card,
+    .guideline {
+        padding: 22px;
+    }
+}
